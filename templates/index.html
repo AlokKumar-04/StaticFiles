@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Files</title>
+    <style>
+      h1 {
+        color: whitesmoke;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>Kung Fu Panda</h1>
+      <img
+        src='{% static "images/KungFuPanda.jpg" %}'
+        alt="Kung Fu Panda"
+        height="300"
+        width="500"
+      />
+    </center>
+  </body>
+</html>
